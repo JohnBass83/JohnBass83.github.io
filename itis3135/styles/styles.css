@@ -2,9 +2,9 @@ body
 {
     background-color: rgb(38, 255, 0);
     color: rgb(91, 0, 148);
-    font: "sans-serif"
+    font-family: "Arial"
 }
 h1,h2,h3
 {
-    font:"teko"
+    font-family:"Arial"
 }
