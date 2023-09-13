@@ -5,8 +5,8 @@ header,footer
 }
 body
 {
-    background-color: rgb(12, 233, 0);
-    color: rgb(141, 0, 187);
+    color: rgb(179, 255, 0);
+    background: rgb(71, 0, 134);
     font-family: "Arial";
     text-align: center;
 }
@@ -27,4 +27,8 @@ table,th,td
     border: 2px solid white; 
     margin-left: auto;
     margin-right: auto;
+}
+li
+{
+    text-align: left;
 }
