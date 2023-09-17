@@ -32,3 +32,12 @@ li
 {
     text-align: left;
 }
+button, input, select
+{
+    background:black;
+    color:white
+}
+.choice
+{
+    color:skyblue
+}
