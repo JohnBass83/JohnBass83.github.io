@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background: rgb(71, 0, 134);
+}
+main{
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+}
+header{
+    text-align: center;
+    font: 30px bold;
+    background-color: black;
+    align-self: center;
+    width: 115%;
+}
+header a{
+    padding-left: 320px;
+    padding-right: 320px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+a
+{
+    color:rgb(255, 0, 225);
+}
+h2{
+    text-decoration: underline;
+    width: auto;
+}
+body{
+    text-align: center;
+    font: Arial (sans-serif);
+    display: grid;
+    grid-template-rows: 1fr auto; 
+    min-height: 50vh;
+    color: rgb(179, 255, 0);
+    background: rgb(71, 0, 134);
+}
+p{
+    padding:0px 100px 0px 100px;
+    font-size: 20px;
+    font: Arial (sans-serif); 
+    width: 90%;
+    text-align: center;
+}
+ul{
+    text-align: left;
+    padding-left:0;
+    font-size: 18px;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+    background-color: black;
+    font-size: 12px;
+    color:white;
+    padding:20px;
+}
+footer{
+    text-align: center;
+    bottom:0;
+    width: auto; 
+    align-self: center; 
+    height: auto;  
+}
+.projects{
+    font-family: "sofia sans",sans-serif;   
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+article div p{
+    font-size:20px;
+    text-align: center;
+    padding-left: 100px;
+}
+article div{
+    text-align: center;
+    align-items: center;
+}
+#four img,#five img,#six img{
+    width: 200;
+    height: 500px;
+}
+#three img,#one img,#two img{
+    width:400px;
+    height:250px;
+}
+a:hover{
+    color: red;
+}
+@media(min-width:800px)
+{
+    body{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        gap:1.5rem;
+    }
+}
+@media(min-width:1250px)
+{
+    body{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        gap:1.5rem;
+        max-width: 1050px;
+    }
+}
