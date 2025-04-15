@@ -1,9 +1,6 @@
 *{
     box-sizing: border-box;
 }
-html{
-    background: rgb(71, 0, 134);
-}
 main{
     margin-top: 2rem;
     margin-bottom:2rem;
@@ -34,7 +31,7 @@ header a{
 }
 a
 {
-    color:rgb(255, 0, 225);
+    color:rgb(0, 255, 149);
 }
 h2{
     text-decoration: underline;
@@ -46,8 +43,8 @@ body{
     display: grid;
     grid-template-rows: 1fr auto; 
     min-height: 50vh;
-    color: rgb(179, 255, 0);
-    background: rgb(71, 0, 134);
+    color: rgb(191, 255, 0);
+    background: rgb(73, 0, 137);
 }
 p{
     padding:0px 100px 0px 100px;
@@ -119,3 +116,8 @@ a:hover{
         max-width: 1050px;
     }
 }
+
+/* color:rgb(0, 254, 250); teal */
+
+/* color: rgb(42, 0, 75); purple*/
+/* background: rgb(34, 201, 0); green*/
