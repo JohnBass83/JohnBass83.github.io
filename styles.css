@@ -92,24 +92,32 @@ footer{
 article div p{
     font-size:20px;
     text-align: center;
-    padding-left: 100px;
 }
 article div{
     text-align: center;
     align-items: center;
 }
 #four img,#five img,#six img{
-    width: 200;
-    height: 500px;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 45%;
+    margin: 20px auto; 
 }
 #three img,#one img,#two img{
-    width:400px;
-    height:250px;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 45%;
+    margin: 20px auto; 
+
 }
 a:hover{
     color: red;
 }
-@media(min-width:800px)
+@media(min-width:400px)
 {
     body{
         display: grid;
