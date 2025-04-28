@@ -43,7 +43,7 @@ a {
     color: rgb(0, 255, 149);
 }
 a:hover {
-    color: red;
+    color: rgb(204, 0, 255);
 }
 h2 {
     text-decoration: underline;
